@@ -1,9 +1,12 @@
 import React from 'react'
+import Header from './components/Header'
+import  Home  from './pages/Home'
 
 const App = () => {
   return (
-    <div>
-      
+    <div className='h-dvh flex flex-col'>
+      <Header/>
+      <Home/>
     </div>
   )
 }
